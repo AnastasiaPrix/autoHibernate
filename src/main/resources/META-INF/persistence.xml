@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>ch.iec._61850._2003.scl.LN0</class>
+        <class>ch.iec._61850._2003.scl.SCL</class>
+        <class>ch.iec._61850._2003.scl.TAbstractConductingEquipment</class>
+        <class>ch.iec._61850._2003.scl.TAbstractDataAttribute</class>
+        <class>ch.iec._61850._2003.scl.TAccessControl</class>
+        <class>ch.iec._61850._2003.scl.TAccessPoint</class>
+        <class>ch.iec._61850._2003.scl.TAddress</class>
+        <class>ch.iec._61850._2003.scl.TAnyContentFromOtherNamespace</class>
+        <class>ch.iec._61850._2003.scl.TAnyContentFromOtherNamespace$TAnyContentFromOtherNamespaceContentItem</class>
+        <class>ch.iec._61850._2003.scl.TAnyLN</class>
+        <class>ch.iec._61850._2003.scl.TAssociation</class>
+        <class>ch.iec._61850._2003.scl.TAssociation$TAssociationLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TBDA</class>
+        <class>ch.iec._61850._2003.scl.TBaseElement</class>
+        <class>ch.iec._61850._2003.scl.TBaseElement$TBaseElementAnyItem</class>
+        <class>ch.iec._61850._2003.scl.TBay</class>
+        <class>ch.iec._61850._2003.scl.TBitRateInMbPerSec</class>
+        <class>ch.iec._61850._2003.scl.TClientLN</class>
+        <class>ch.iec._61850._2003.scl.TClientLN$TClientLNLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TCommunication</class>
+        <class>ch.iec._61850._2003.scl.TConductingEquipment</class>
+        <class>ch.iec._61850._2003.scl.TConfLNs</class>
+        <class>ch.iec._61850._2003.scl.TConnectedAP</class>
+        <class>ch.iec._61850._2003.scl.TConnectivityNode</class>
+        <class>ch.iec._61850._2003.scl.TControl</class>
+        <class>ch.iec._61850._2003.scl.TControlBlock</class>
+        <class>ch.iec._61850._2003.scl.TControlWithIEDName</class>
+        <class>ch.iec._61850._2003.scl.TControlWithIEDName$TControlWithIEDNameIEDNameItem</class>
+        <class>ch.iec._61850._2003.scl.TControlWithTriggerOpt</class>
+        <class>ch.iec._61850._2003.scl.TDA</class>
+        <class>ch.iec._61850._2003.scl.TDAI</class>
+        <class>ch.iec._61850._2003.scl.TDAType</class>
+        <class>ch.iec._61850._2003.scl.TDO</class>
+        <class>ch.iec._61850._2003.scl.TDOI</class>
+        <class>ch.iec._61850._2003.scl.TDOType</class>
+        <class>ch.iec._61850._2003.scl.TDataSet</class>
+        <class>ch.iec._61850._2003.scl.TDataTypeTemplates</class>
+        <class>ch.iec._61850._2003.scl.TDurationInMilliSec</class>
+        <class>ch.iec._61850._2003.scl.TDurationInSec</class>
+        <class>ch.iec._61850._2003.scl.TEnumType</class>
+        <class>ch.iec._61850._2003.scl.TEnumVal</class>
+        <class>ch.iec._61850._2003.scl.TEquipment</class>
+        <class>ch.iec._61850._2003.scl.TEquipmentContainer</class>
+        <class>ch.iec._61850._2003.scl.TExtRef</class>
+        <class>ch.iec._61850._2003.scl.TExtRef$TExtRefLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TFCDA</class>
+        <class>ch.iec._61850._2003.scl.TFCDA$TFCDALnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TFunction</class>
+        <class>ch.iec._61850._2003.scl.TGSE</class>
+        <class>ch.iec._61850._2003.scl.TGSEControl</class>
+        <class>ch.iec._61850._2003.scl.TGSESettings</class>
+        <class>ch.iec._61850._2003.scl.TGeneralEquipment</class>
+        <class>ch.iec._61850._2003.scl.THeader</class>
+        <class>ch.iec._61850._2003.scl.THeader$History</class>
+        <class>ch.iec._61850._2003.scl.THitem</class>
+        <class>ch.iec._61850._2003.scl.TIDNaming</class>
+        <class>ch.iec._61850._2003.scl.TIED</class>
+        <class>ch.iec._61850._2003.scl.TInputs</class>
+        <class>ch.iec._61850._2003.scl.TLDevice</class>
+        <class>ch.iec._61850._2003.scl.TLN</class>
+        <class>ch.iec._61850._2003.scl.TLN$TLNLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TLN0</class>
+        <class>ch.iec._61850._2003.scl.TLN0$TLN0LnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TLNode</class>
+        <class>ch.iec._61850._2003.scl.TLNode$TLNodeLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TLNodeContainer</class>
+        <class>ch.iec._61850._2003.scl.TLNodeType</class>
+        <class>ch.iec._61850._2003.scl.TLNodeType$TLNodeTypeLnClassItem</class>
+        <class>ch.iec._61850._2003.scl.TLog</class>
+        <class>ch.iec._61850._2003.scl.TLogControl</class>
+        <class>ch.iec._61850._2003.scl.TLogSettings</class>
+        <class>ch.iec._61850._2003.scl.TNaming</class>
+        <class>ch.iec._61850._2003.scl.TP</class>
+        <class>ch.iec._61850._2003.scl.TPAPPID</class>
+        <class>ch.iec._61850._2003.scl.TPIP</class>
+        <class>ch.iec._61850._2003.scl.TPIPGATEWAY</class>
+        <class>ch.iec._61850._2003.scl.TPIPSUBNET</class>
+        <class>ch.iec._61850._2003.scl.TPMACAddress</class>
+        <class>ch.iec._61850._2003.scl.TPOSIAEInvoke</class>
+        <class>ch.iec._61850._2003.scl.TPOSIAEQualifier</class>
+        <class>ch.iec._61850._2003.scl.TPOSIAPInvoke</class>
+        <class>ch.iec._61850._2003.scl.TPOSIAPTitle</class>
+        <class>ch.iec._61850._2003.scl.TPOSINSAP</class>
+        <class>ch.iec._61850._2003.scl.TPOSIPSEL</class>
+        <class>ch.iec._61850._2003.scl.TPOSISSEL</class>
+        <class>ch.iec._61850._2003.scl.TPOSITSEL</class>
+        <class>ch.iec._61850._2003.scl.TPVLANID</class>
+        <class>ch.iec._61850._2003.scl.TPVLANPRIORITY</class>
+        <class>ch.iec._61850._2003.scl.TPhysConn</class>
+        <class>ch.iec._61850._2003.scl.TPowerSystemResource</class>
+        <class>ch.iec._61850._2003.scl.TPowerTransformer</class>
+        <class>ch.iec._61850._2003.scl.TPrivate</class>
+        <class>ch.iec._61850._2003.scl.TReportControl</class>
+        <class>ch.iec._61850._2003.scl.TReportControl$OptFields</class>
+        <class>ch.iec._61850._2003.scl.TReportSettings</class>
+        <class>ch.iec._61850._2003.scl.TRptEnabled</class>
+        <class>ch.iec._61850._2003.scl.TSCLControl</class>
+        <class>ch.iec._61850._2003.scl.TSDI</class>
+        <class>ch.iec._61850._2003.scl.TSDO</class>
+        <class>ch.iec._61850._2003.scl.TSMV</class>
+        <class>ch.iec._61850._2003.scl.TSMVSettings</class>
+        <class>ch.iec._61850._2003.scl.TSMVSettings$TSMVSettingsSmpRateItem</class>
+        <class>ch.iec._61850._2003.scl.TSampledValueControl</class>
+        <class>ch.iec._61850._2003.scl.TSampledValueControl$SmvOpts</class>
+        <class>ch.iec._61850._2003.scl.TServer</class>
+        <class>ch.iec._61850._2003.scl.TServer$Authentication</class>
+        <class>ch.iec._61850._2003.scl.TServiceSettings</class>
+        <class>ch.iec._61850._2003.scl.TServiceWithMax</class>
+        <class>ch.iec._61850._2003.scl.TServiceWithMaxAndClient</class>
+        <class>ch.iec._61850._2003.scl.TServiceWithMaxAndMaxAttributes</class>
+        <class>ch.iec._61850._2003.scl.TServiceWithMaxAndMaxAttributesAndModify</class>
+        <class>ch.iec._61850._2003.scl.TServiceWithMaxAndModify</class>
+        <class>ch.iec._61850._2003.scl.TServiceYesNo</class>
+        <class>ch.iec._61850._2003.scl.TServices</class>
+        <class>ch.iec._61850._2003.scl.TServices$SettingGroups</class>
+        <class>ch.iec._61850._2003.scl.TSettingControl</class>
+        <class>ch.iec._61850._2003.scl.TSubEquipment</class>
+        <class>ch.iec._61850._2003.scl.TSubFunction</class>
+        <class>ch.iec._61850._2003.scl.TSubNetwork</class>
+        <class>ch.iec._61850._2003.scl.TSubstation</class>
+        <class>ch.iec._61850._2003.scl.TTapChanger</class>
+        <class>ch.iec._61850._2003.scl.TTerminal</class>
+        <class>ch.iec._61850._2003.scl.TText</class>
+        <class>ch.iec._61850._2003.scl.TTransformerWinding</class>
+        <class>ch.iec._61850._2003.scl.TTrgOps</class>
+        <class>ch.iec._61850._2003.scl.TUnNaming</class>
+        <class>ch.iec._61850._2003.scl.TVal</class>
+        <class>ch.iec._61850._2003.scl.TValueWithUnit</class>
+        <class>ch.iec._61850._2003.scl.TVoltage</class>
+        <class>ch.iec._61850._2003.scl.TVoltageLevel</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost/"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.username" value="postgres"/>
+            <property name="hibernate.connection.password" value="ohcheeph"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>
