@@ -278,8 +278,7 @@ public abstract class TAnyContentFromOtherNamespace
          *     
          */
         @Basic
-        @Column(name = "TEXT")
-        @Lob
+        @Column(name = "text")
         public String getText() {
             return text;
         }
